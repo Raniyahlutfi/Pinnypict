@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <title>Register</title>
+        <style>
+            *{
+                font-family: 'Poppins', sans-serif;
+            }
+            input[type=text], input[type=password]{   
+                width: 40%;   
+                margin: 8px 0;  
+                padding: 10px 15px;   
+                display: inline-block; 
+            } 
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="w-full h-screen bg-fixed px-4 lg:px-32 bg-cover bg-center flex flex-col justify-center items-center text-black" style="background-image: url('Pinnypict.png');">
+                <a href="LandingPage.html" class="py-16 text-3xl items-center text-center font-semibold">
+                    pinnypict
+                </a> 
+                <input class="bg-purple-200" type="text" placeholder="Username" name="username" required>
+                <input class="bg-purple-200" type="text" placeholder="Email" name="email" required>
+                <input class="bg-purple-200" type="password" placeholder="Password" name="password" required>
+                <input class="bg-purple-200" type="text" placeholder="Phone" name="phone" required>
+                <a href="Login.html" class="font-light py-2 hover:text-purple-800 transition-all">
+                    <i>Have An Account?</i>
+                </a>
+                <div class="py-16 flex flex-row p-16 gap-16 ">
+                    <button> <a href="HomePage.html" class="px-10 py-2 font-semibold bg-purple-500 hover:bg-white hover:text-purple-700 transition-all">
+                        Register
+                    </a>
+                </div>
+            </div>
+</body>
+</html>

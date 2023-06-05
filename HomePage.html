@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <title>Pinnypict</title>
+    <style>
+        section{
+            display: block;
+            }
+        * {
+            font-family: 'Poppins', sans-serif;
+            
+        }
+
+        h2,a{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 36px;
+            /*<img class="w-[24x] h-[24px]" src="profil.png">*/
+        }
+
+        .frame {
+            border: 4px;
+            background-color: #ffffff;
+        }
+        .frame1 {
+            border: 4px;
+            background-color: #A855F7;
+            text-align: center;
+            font-style: bold;
+        }
+        .frame2 {
+            border: 4px;
+            background-color: #C084FC;
+            text-align: center;
+        }
+        .frame3 {
+            border: 4px;
+            background-color: #D2AFF7;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="topnav">
+        <div class="w-full h-full flex flex-row justify-between bg-purple-400 px-4 py-4 text-black items-center" >
+            <a href="HomePage.html" class="px-16 text-3xl">
+                <h1>pinnypict</h1>
+            </a>
+            <div class="px-4 text-black font-bold flex flex-row gap-5">
+                <a href="HomePage.html" class="px-4 border-4 border-purple-200 border-x-0 border-t-0 hover:text-purple-700 transition-all">
+                    <h1>Home</h1>
+                </a>
+                <a href="About.html" class="px-2 hover:text-purple-700 transition-all">
+                    <h1>About</h1>
+                </a>
+                <a href="Contact.html" class="px-2 hover:text-purple-700 transition-all">
+                    <h1>Contact</h1>
+                </a>
+                <button> <a href="Profil.html" class="px-8 py-2 text-black bg-purple-400 border-2 border-purple-700 hover:bg-white hover:text-purple-700 transition-all">
+                    Profil
+                </a>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="main">
+        <section id="home-section">
+            <div class="w-full h-screen flex flex-col justify-center text-black text-center">
+                <h1 class="text-6xl lg:text-6xl font-bold ">
+                    Hello, pinny
+                </h1>
+                <div class="flex flex-row justify-center">
+                    <form class="py-16" action="/search" method="get">
+                        <input class="bg-purple-300 px-80 text-center" type="text" placeholder=" " required>
+                        <button class="py-16"> <a href="Search.html" class="px-10 py-2 font-semibold bg-purple-400 hover:bg-white hover:text-purple-700 transition-all">
+                            Search
+                        </a>
+                        </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="section">
+            <div class="w-full h-full px-16 py-8 flex flex-row justify-between gap-8">
+                <a class="text-3xl font-bold text-black">
+                    Pin
+                </a>
+                <a href="MorePin.html" class="text-3xl font-bold text-black hover:text-purple-700 transition-all">
+                    More
+                </a>
+            </div>
+            <div class=" frame1 h-full w-full flex flex-row justify-center p-8 gap-8">
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700">
+                    Name Pin
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Pin
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Pin
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Pin
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Pin
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Pin
+                </a>
+            </div> 
+        </section>
+
+        <section id="section">
+            <div class="w-full h-full px-16 py-8 flex flex-row justify-between gap-8">
+                <a class="text-3xl font-bold text-black">
+                    Board
+                </a>
+                <a href="MoreBoard.html" class="text-3xl font-bold text-black hover:text-purple-700 transition-all">
+                    More
+                </a>
+            </div>
+            <div class=" frame2 h-full w-full flex flex-row justify-center p-8 gap-8">
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700">
+                    Name Board
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Board
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Board
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Board
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Board
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Board
+                </a>
+            </div> 
+        </section>
+
+        <section id="section">
+            <div class="w-full h-full px-16 py-8 flex flex-row justify-between gap-8">
+                <a class="text-3xl font-bold text-black">
+                    Book
+                </a>
+                <a href="MoreBook.html" class="text-3xl font-bold text-black hover:text-purple-700 transition-all">
+                    More
+                </a>
+            </div>
+            <div class=" frame3 h-full w-full flex flex-row justify-center p-8 gap-8">
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700">
+                    Name Book
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Book
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Book
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Book
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Book
+                </a>
+                <a class="frame py-2 text-2xl font-bold w-[250px] h-[350px] text-black border-4 border-purple-700 ">
+                    Name Book
+                </a>
+            </div> 
+        </section>
+
+        <section id="section">
+            <div class="w-full h-full h-screen py-16 flex flex-col justify-center gap-8">
+                <h1 class="text-6xl lg:text-6xl font-bold text-center text-black">
+                    Make Something?
+                </h1>
+                <div class="flex flex-row gap-3 justify-center">
+                    <div class="flex flex-row p-16 gap-16 ">
+                        <a  href="MakePin.html" class="text-center py-2 text-3xl font-bold w-[250px] h-[60px] text-black bg-purple-500 border-4 border-purple-700 hover:bg-white hover:text-purple-700 transition-all">
+                            Pin
+                        </a>
+                        <a href="MakeBoard.html" class="text-center py-2 text-3xl font-bold w-[250px] h-[60px] text-black bg-purple-400 border-4 border-purple-700 hover:bg-white hover:text-purple-700 transition-all">
+                            Board
+                        </a>
+                        <a href="MakeBook.html" class="text-center py-2 text-3xl font-bold w-[250px] h-[60px] text-black bg-purple-300 border-4 border-purple-700 hover:bg-white hover:text-purple-700 transition-all">
+                            Book
+                        </a>
+                    </div>
+                </div>    
+            </div>
+    
+            <footer>
+                <div class="w-full h-full bg-purple-400 py-4 text-black text-center">
+                    <a href="HomePage.html" class="text-3xl">
+                        <h1>pinnypict</h1>
+                    </a>
+                </div>
+            </footer>
+        </section>
+    </div>
+</body>
+
+</html>
